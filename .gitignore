@@ -1,0 +1,22 @@
+# Ignorar archivos y carpetas generados por el entorno de desarrollo
+/node_modules
+/dist
+/.vscode
+
+# Ignorar archivos de configuración específicos del entorno
+.env
+.env.local
+.env.*.local
+
+# Ignorar archivos de registro y caché
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+
+# Ignorar archivos de compilación y dependencias
+/build
+/.sass-cache
+/.parcel-cache
+/.cache
